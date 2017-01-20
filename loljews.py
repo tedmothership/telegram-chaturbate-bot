@@ -20,7 +20,7 @@ def anime(bot, update):
         result = "A puta da animegamergirl tá online a enficar coisas no cu!"
     bot.sendMessage(chat_id=update.message.chat_id, text=result)
 
-        #bot.sendMessage(chat_id='-31059729', text=result)
+
 
 def main():
     updater = Updater(token='302715001:AAH2EV86w3VrXgWmkLZn33A8riBueu6d1a0')
