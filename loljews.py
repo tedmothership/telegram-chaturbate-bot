@@ -23,7 +23,7 @@ def anime(bot, update):
 
 
 def main():
-    updater = Updater(token='302715001:AAH2EV86w3VrXgWmkLZn33A8riBueu6d1a0')
+    updater = Updater(token='BOT-TOKEN')
     #jobs = updater.job_queue
     dispatcher = updater.dispatcher
     logging.basicConfig(level=logging.INFO)
